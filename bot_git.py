@@ -2,9 +2,10 @@
 import os
 from telethon import TelegramClient, events, utils
 
-api_id = 123456789 # Настройки бота, ******** НЕ МЕНЯТЬ ************
-api_hash = "12131321" # Настройки бота, ******** НЕ МЕНЯТЬ ************
-bot_token = "TOKEN" # Token BOT name @messageshd_bot http://t.me/messageshd_bot 
+api_id = 123456789 # CHANGE THIS
+api_hash = "12131321" # CHANGE THIS
+bot_token = "TOKEN" # CHANGE THIS 
+
 bot = TelegramClient("52345", api_id, api_hash).start(bot_token=bot_token)
 dir_images = os.path.join("input","img")
 dir_document = os.path.join("input","doc")
